@@ -2,9 +2,9 @@
 /**
  * @author Nicolaas [at] sunnysideup.co.nz
  */
-class SalesAdmin extends ReportAdmin {
+class SalesAdminOld extends ReportAdmin {
 
-	static $url_segment = 'sales';
+	static $url_segment = 'salesold';
 
 	static $url_rule = '/$Action/$ID';
 

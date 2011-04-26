@@ -87,8 +87,8 @@ class SalesReport extends SS_Report {
 	 */
 	function getReportField() {
 		// Get the fields used for the table columns
-		Order::$table_overview_fields["Created"] = "Received";
-		$fields = Order::$table_overview_fields;
+		Order::$summary_fields["Created"] = "Received";
+		$fields = Order::$summary_fields;
 
 		// Add some fields specific to this report
 		$fields['Invoice'] = '';

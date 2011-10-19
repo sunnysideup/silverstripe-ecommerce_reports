@@ -22,9 +22,9 @@ class OrderReport_Popup extends Controller {
 
 	//basic security for controller
 	public static $allowed_actions = array(
-		'index' => 'SHOP_ADMIN',
-		'packingslip' => 'SHOP_ADMIN',
-		'invoice' => 'SHOP_ADMIN'
+		'index' => 'SHOPADMIN',
+		'packingslip' => 'SHOPADMIN',
+		'invoice' => 'SHOPADMIN'
 	);
 
 	function init(){

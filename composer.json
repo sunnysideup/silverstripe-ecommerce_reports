@@ -1,7 +1,7 @@
 {
     "name": "sunnysideup/ecommerce_reports",
     "type": "silverstripe-module",
-    "description": "allows you to sync just one folder in assets rather than all of assets.",
+    "description": "Adds additional reports to your e-commerce application",
 
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
